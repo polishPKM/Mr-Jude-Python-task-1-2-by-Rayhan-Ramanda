@@ -30,7 +30,7 @@ while True:
     try:
         speed = float(input("enter the speed: "))
         if speed <2:
-            print("speed fail")
+            print("must be greater or equal than 2 MPH")
             continue
         else:
             break
